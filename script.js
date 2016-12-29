@@ -7,5 +7,5 @@ function spocitej() {
     while (cislo >= 10) {
         cislo = Math.floor(cislo/10) + (cislo%10)
     }
-    console.log(cislo);
+    $("#vypis").text(cislo);
 }
